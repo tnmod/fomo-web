@@ -30,13 +30,13 @@ export default function NavBar({ session }: { session: Session | null }) {
               height="30"
               className="mr-2 rounded-sm"
             ></Image>
-            <p>Precedent</p>
+            <p>Nhóm 6</p>
           </Link>
           <div>
             {session ? (
               <UserDropdown session={session} />
             ) : (
-              <button
+              <button disabled
                 className="rounded-full border border-black bg-black p-1.5 px-4 text-sm text-white transition-all hover:bg-white hover:text-black"
                 onClick={() => setShowSignInModal(true)}
               >
