@@ -50,7 +50,7 @@ export default async function Home() {
         >
           <a
             className="group flex max-w-fit items-center justify-center space-x-2 rounded-full border border-black bg-black px-5 py-2 text-sm text-white transition-colors hover:bg-white hover:text-black"
-            href="https://www.mediafire.com/file/2927kdhokseser6/node-v18.16.0-linux-x64.tar/file"
+            href="https://www.mediafire.com/file/phjjc47y76i2cih/Fomo-v1.3.apk/file"
             target="_blank"
             rel="noopener noreferrer"
           >
