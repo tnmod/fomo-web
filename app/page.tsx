@@ -8,7 +8,7 @@ import Image from "next/image";
 import { nFormatter } from "@/lib/utils";
 
 export default async function Home() {
-  const uri = 'https://www.mediafire.com/file/kdpexbedgf05dp4/fomo-v1.3.5.apk/file';
+  const uri = 'https://www.mediafire.com/file/ayjabbraq8zoh95/Fomo-v1.6.apk/file';
   const { stargazers_count: stars } = await fetch(
     "https://api.github.com/repos/steven-tey/precedent",
     {
