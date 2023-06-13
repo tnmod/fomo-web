@@ -9,6 +9,7 @@ import { nFormatter } from "@/lib/utils";
 
 export default async function Home() {
   const uri = 'https://www.mediafire.com/file/ayjabbraq8zoh95/Fomo-v1.6.apk/file';
+  const version = '1.6';
   const { stargazers_count: stars } = await fetch(
     "https://api.github.com/repos/steven-tey/precedent",
     {
@@ -69,7 +70,7 @@ export default async function Home() {
                 strokeLinejoin="round"
               />
             </svg>
-            <p>Download v1.3.5</p>
+            <p>Download v{version}</p>
           </a>
           <a
             className="flex max-w-fit items-center justify-center space-x-2 rounded-full border border-gray-300 bg-white px-5 py-2 text-sm text-gray-600 shadow-md transition-colors hover:border-gray-800"
